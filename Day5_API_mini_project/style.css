@@ -46,8 +46,12 @@
     color: wheat;
     height: 50px;
     width: 15%;
+    cursor: pointer;
 }
 
+.search-box button:hover{
+    background-color: rgb(62, 22, 99);
+}
 .result{
     display: flex;
     flex-direction: column;
